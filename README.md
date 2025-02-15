@@ -1,20 +1,5 @@
 # Frontend Trainee Assignment Winter 2025
 
-## Технологический стек
-
-### Frontend
-- **TypeScript** - для типобезопасной разработки и улучшенной поддержки кода
-- **React Hook Form** - управление формами с валидацией и оптимизированным ререндерингом
-- **Zod** - типобезопасная валидация данных
-- **TailwindCSS** - для быстрой стилизации компонентов
-- **Shadcn/ui** - готовые компоненты с возможностью кастомизации
-- **Axios** - для типизированных HTTP-запросов
-- **React Router** - для клиентской маршрутизации
-
-### DevOps
-- **Docker** - для контейнеризации и упрощения развертывания
-- **Docker Compose** - для оркестрации контейнеров
-
 ## Обоснование выбора технологий
 
 1. **React Hook Form + Zod**:
@@ -25,8 +10,8 @@
 
 2. **TailwindCSS + Shadcn/ui**:
    - Быстрая разработка интерфейса без написания CSS
-   - Консистентный дизайн
-   - Готовые доступные компоненты с возможностью кастомизации
+   - Консистентный и апаптивный дизайн
+   - Готовые доступные компоненты с полной возможностью кастомизации
 
 ## Запуск проекта
 
@@ -34,6 +19,10 @@
 
 1. Убедитесь, что установлен Node.js версии 18+
 2. Склонируйте репозиторий
+```bash
+git clone https://github.com/Tiruum/Frontend-trainee-assignment-winter-2025.git
+cd Frontend-trainee-assignment-winter-2025
+```
 3. Установите зависимости для клиента и сервера:
 ```bash
 # Установка зависимостей клиента
@@ -63,19 +52,18 @@ npm run dev
 
 ### Через Docker
 
-1. Убедитесь, что установлены Docker и Docker Compose
-2. Склонируйте репозиторий:
+1. Склонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Tiruum/Frontend-trainee-assignment-winter-2025.git
 cd Frontend-trainee-assignment-winter-2025
 ```
 
-3. Запустите проект:
+2. Запустите проект:
 ```bash
 docker-compose up --build
 ```
 
-4. Откройте в браузере:
+3. Откройте в браузере:
 - Frontend: http://localhost:5173
 - Backend API: http://localhost:3000
 
